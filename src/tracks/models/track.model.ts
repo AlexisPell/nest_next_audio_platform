@@ -15,7 +15,7 @@ export class Track extends Document {
   @Prop({ type: String })
   text: string;
 
-  @Prop({ type: String })
+  @Prop({ type: Number })
   listens: number;
 
   @Prop({ type: String })
